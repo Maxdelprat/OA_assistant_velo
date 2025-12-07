@@ -1,0 +1,4 @@
+Voici des extraits du rapport pour t'aider à répondre à la prochaine question :
+```
+{context}
+```
