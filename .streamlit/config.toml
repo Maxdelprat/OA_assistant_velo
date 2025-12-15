@@ -1,4 +1,0 @@
-[general]
-# Spécifie la version de Python que Streamlit Cloud doit utiliser
-# Nous la passons à 3.11 comme demandé
-python = "3.11"
