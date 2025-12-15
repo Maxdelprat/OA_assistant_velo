@@ -8,4 +8,5 @@ langchain-core
 pydantic
 pymupdf
 tavily-python
-chroma-db
+chromadb
+
