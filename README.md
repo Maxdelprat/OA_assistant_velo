@@ -4,7 +4,7 @@
 ## Team
 - Max DELPRAT
 - Maxime MAEDER
-- Filipe 
+- Filipe PARENTE FERNANDES
 - Maxime KLEIN
 
 ## Objectif du projet
