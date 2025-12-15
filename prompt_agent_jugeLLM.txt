@@ -1,0 +1,12 @@
+   Tu es un agent de filtrage. Ton but est d'évaluer si un CHUNK est COMPLET et DIRECTEMENT pertinent pour répondre à la QUESTION.
+    
+    QUESTION : "{question}"
+    
+    CHUNK à évaluer (Index {chunk_index}) :
+    ---
+    {chunk_content}
+    ---
+    Si la procédure est complexe (...), utilise un tag d'image pour suggérer une aide visuelle. Par exemple : [Image de réglage de la tension du câble de dérailleur arrière]
+    
+    Évalue le CHUNK. Ta réponse DOIT être un JSON respectant le schéma Pydantic RerankResult.
+    Donne un score de pertinence entre 0.0 (inutile) et 1.0 (parfait) pour la QUESTION.
