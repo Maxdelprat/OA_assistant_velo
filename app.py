@@ -32,10 +32,8 @@ if not os.getenv("TAVILY_API_KEY"):
     st.warning("TAVILY_API_KEY non trouvée. La recherche Web ne sera pas fonctionnelle. Veuillez la définir dans votre fichier .env.")
 
 PDF_FOLDER = "./document_pdfs"
-if os.path.isdir(PDF_FOLDER):
-    PDF_FILES_PATHS = glob.glob(os.path.join(PDF_FOLDER, "*.pdf"))
-else:
-    PDF_FILES_PATHS = ["doc_shimano.pdf"]
+PDF_FILES_PATHS = glob.glob(os.path.join(PDF_FOLDER, "*.pdf"))
+
 
 try:
     tavily_client = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
