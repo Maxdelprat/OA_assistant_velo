@@ -1,0 +1,17 @@
+# Environnement virtuel
+.venv/
+venv/
+
+# Variables d'environnement
+.env
+.env.*
+
+# Fichiers Python inutiles
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
